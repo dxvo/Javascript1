@@ -14,7 +14,7 @@ body {
 .wrapper {
   position: relative;
   min-height: 100%;
-  padding-bottom: 130px;
+  padding-bottom: 90px;
   overflow: auto;
 }
 
@@ -222,4 +222,11 @@ select {
   to {
     opacity: 1;
   }
+}
+
+
+input[type=text]:focus {
+  background-color: #90CCE8;
+  border: 3px solid #555;
+
 }
