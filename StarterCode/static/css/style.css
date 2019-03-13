@@ -74,7 +74,7 @@ select {
 }
 
 #table-area th {
-  text-align: center;
+  text-align: left;
 }
 
 #table-area th:first-child,
@@ -170,7 +170,7 @@ select {
   }
 
   #table-area td {
-    font-size: 1.25em;
+    font-size: 1.9em;
   }
 
   #table-area tbody td {
@@ -228,5 +228,11 @@ select {
 input[type=text]:focus {
   background-color: #90CCE8;
   border: 3px solid #555;
+
+}
+
+.table-head{
+  font-size: 16px;
+  font-weight: bold;
 
 }
